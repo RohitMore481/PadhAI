@@ -13,3 +13,5 @@ PadhA.I. is an AI-powered last-night study assistant built for fast revision.
 - backend/
 - assets/
 - docs/
+
+//////////////

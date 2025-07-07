@@ -143,7 +143,8 @@ async def generate_questions_stream(req: QuestionRequest):
 
 # 5b.  NON‑STREAMING version (used by React)
 @app.post("/generate_questions")
-async def generate_questions(req: QuestionRequest):
+async def generate_questions(req: QuestionRequest
+):
     prefix = f"Generate {req.count} exam‑style questions on this topic for {req.mode} preparation:\n\n"
     prompt = prefix + req.topic
     questions_text = llama3_one_shot(prompt)

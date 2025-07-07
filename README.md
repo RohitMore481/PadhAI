@@ -34,7 +34,7 @@
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/RohitMore481/PadhAI
-cd PADHAI
+cd PadhAI
 
 ###  2️⃣ Backend Setup (FastAPI)
 
